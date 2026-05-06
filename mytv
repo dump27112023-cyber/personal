@@ -45,7 +45,7 @@
               "contents": [
                 {
                   "id"     : "ct-9a0ab29a81",
-                  "name"   : "Yulia Starodubtseva vs Simona Waltert",
+                  "name"   : "C1: FC Bayern Munich vs Paris Saint Germain",
                   "streams": [
                     {
                       "id"          : "st-9a0ab29a81",
@@ -56,7 +56,7 @@
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://live.alilicloud.com/live/a79038e85d030552dcd239a467c05fbb/playlist.m3u8",
+                          "url": "https://pull06.scstream.net/live/stream-9912060_lhd.flv?auth_key=1778097054-0-0-79cafbbcb0023c8b6a6afc9f120a963e",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -73,9 +73,9 @@
             }
           ],
           "org_metadata": {
-            "league": "WTA Rome, Italy Women Singles",
-            "team_a": "Yulia Starodubtseva",
-            "team_b": "Simona Waltert",
+            "league": "UEFA CL",
+            "team_a": "Bayern Munich",
+            "team_b": "Paris Saint Germain",
             "logo_a": "https://cdn-live.taoxanh.biz/live-dev/football/team/logo/73a746949ee48c8773d5ac18f5ec49d4.png",
             "logo_b": "https://cdn-live.taoxanh.biz/live-dev/football/team/logo/656eebdf7aceade44fb10274feb66ec2.png",
             "thumb": "https://pub-26bab83910ab4b5781549d12d2f0ef6f.r2.dev/thumbs/kaytee-f80fff98ccd3.webp?v=1778093063",
