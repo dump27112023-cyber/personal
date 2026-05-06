@@ -2,7 +2,7 @@ name: Update file from URL
 
 on:
   schedule:
-    - cron: "*/30 * * * *"  # mỗi 30 phút
+    - cron: "0 */2 * * *"  # mỗi 30 phút
   workflow_dispatch:
 
 jobs:
