@@ -11,16 +11,20 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Fetch data
         run: |
-          curl -L "https://tinyurl.com/buncha2" -o mytv
+          curl -L --fail --retry 3 --retry-delay 5 "https://tinyurl.com/buncha2" -o mytv
 
       - name: Commit & push nếu có thay đổi
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git add mytv
-          git diff --quiet && git diff --staged --quiet || git commit -m "auto update"
-          git push
+          if git diff --cache --quiet; then
+            echo "No changes."
+          else
+            git commit -m "auto update"
+            git push
+          fi
