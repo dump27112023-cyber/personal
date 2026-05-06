@@ -17,6 +17,128 @@
       "enable_detail": false,
       "channels"     : [
         {
+          "id": "kaytee-da0e311b9161",
+          "name": "⚽ FC Bayern Munich vs Paris Saint Germain | 02:00 07/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://pub-26bab83910ab4b5781549d12d2f0ef6f.r2.dev/thumbs/kaytee-da0e311b9161.webp?v=1778093076",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text"      : "⏳ Sắp Live",
+              "position"  : "top-left",
+              "color"     : "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id"      : "src-4f25bb7be5",
+              "name"    : "Bún chả TV",
+              "contents": [
+                {
+                  "id"     : "ct-4f25bb7be5",
+                  "name"   : "FC Bayern Munich vs Paris Saint Germain",
+                  "streams": [
+                    {
+                      "id"          : "st-4f25bb7be5",
+                      "name"        : "KT",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0c71faf88b",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.taoxanh.biz/live/69fb885a42283_151255/index.m3u8?expire=1778696922&sign=2162926b67dcc480e4de5f9f5baa6d9a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv4.net/truc-tiep/fc-bayern-munich-vs-paris-saint-germain-0200-07-05-2026/601436056"
+                            },
+                            {"key": "User-Agent", "value": "Mozilla/5.0"}
+                          ]
+                        },
+                        {
+                          "id": "lnk-2113b0a582",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.taoxanh.biz/live/69fb840742283_4908/index.m3u8?expire=1778695815&sign=fe6f79914f753e85ecee357d868e52e7",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv4.net/truc-tiep/fc-bayern-munich-vs-paris-saint-germain-0200-07-05-2026/601436056"
+                            },
+                            {"key": "User-Agent", "value": "Mozilla/5.0"}
+                          ]
+                        },
+                        {
+                          "id": "lnk-babe8db0b1",
+                          "name": "Link 3",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.taoxanh.biz/live/69fb84ed42283_162172/index.m3u8?expire=1778696045&sign=6046fb81634a39c1c948a0bffe3b5629",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv4.net/truc-tiep/fc-bayern-munich-vs-paris-saint-germain-0200-07-05-2026/601436056"
+                            },
+                            {"key": "User-Agent", "value": "Mozilla/5.0"}
+                          ]
+                        },
+                        {
+                          "id": "lnk-962e97b0a9",
+                          "name": "Link 4",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://cdn-hls.taoxanh.biz/live/69fb8244203f5_44731/index.m3u8?expire=1778695364&sign=0e3f8e487d66d812df6b0a8573f8fd65",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv4.net/truc-tiep/fc-bayern-munich-vs-paris-saint-germain-0200-07-05-2026/601436056"
+                            },
+                            {"key": "User-Agent", "value": "Mozilla/5.0"}
+                          ]
+                        },
+                        {
+                          "id": "lnk-532860db33",
+                          "name": "Link 5",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/e04742a487171151887442f27a890e99/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv4.net/truc-tiep/fc-bayern-munich-vs-paris-saint-germain-0200-07-05-2026/601436056"
+                            },
+                            {"key": "User-Agent", "value": "Mozilla/5.0"}
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Champions League",
+            "team_a": "FC Bayern Munich",
+            "team_b": "Paris Saint Germain",
+            "logo_a": "https://cdn-live.taoxanh.biz/live-dev/football/team/logo/ef19a84a6745fe57aa786873d2b18e8a.png",
+            "logo_b": "https://cdn-live.taoxanh.biz/live-dev/football/team/logo/3b720f181ce9993f9422d276acf7b292.png",
+            "thumb": "https://pub-26bab83910ab4b5781549d12d2f0ef6f.r2.dev/thumbs/kaytee-da0e311b9161.webp?v=1778093076",
+            "thumb_key": "thumbs/kaytee-da0e311b9161.webp"
+          }
+        },
+        {
           "id": "kaytee-f80fff98ccd3",
           "name": "⚽ Yulia Starodubtseva vs Simona Waltert | 22:35 06/05",
           "type": "single",
@@ -2936,128 +3058,6 @@
             "logo_b": "https://cdn-live.taoxanh.biz/live-dev/football/team/logo/b61190e348449a746ef3f802e7ebc701.png",
             "thumb": "https://pub-26bab83910ab4b5781549d12d2f0ef6f.r2.dev/thumbs/kaytee-f7edaeb56be9.webp?v=1778093077",
             "thumb_key": "thumbs/kaytee-f7edaeb56be9.webp"
-          }
-        },
-        {
-          "id": "kaytee-da0e311b9161",
-          "name": "⚽ FC Bayern Munich vs Paris Saint Germain | 02:00 07/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://pub-26bab83910ab4b5781549d12d2f0ef6f.r2.dev/thumbs/kaytee-da0e311b9161.webp?v=1778093076",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text"      : "⏳ Sắp Live",
-              "position"  : "top-left",
-              "color"     : "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id"      : "src-4f25bb7be5",
-              "name"    : "Bún chả TV",
-              "contents": [
-                {
-                  "id"     : "ct-4f25bb7be5",
-                  "name"   : "FC Bayern Munich vs Paris Saint Germain",
-                  "streams": [
-                    {
-                      "id"          : "st-4f25bb7be5",
-                      "name"        : "KT",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0c71faf88b",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.taoxanh.biz/live/69fb885a42283_151255/index.m3u8?expire=1778696922&sign=2162926b67dcc480e4de5f9f5baa6d9a",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv4.net/truc-tiep/fc-bayern-munich-vs-paris-saint-germain-0200-07-05-2026/601436056"
-                            },
-                            {"key": "User-Agent", "value": "Mozilla/5.0"}
-                          ]
-                        },
-                        {
-                          "id": "lnk-2113b0a582",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.taoxanh.biz/live/69fb840742283_4908/index.m3u8?expire=1778695815&sign=fe6f79914f753e85ecee357d868e52e7",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv4.net/truc-tiep/fc-bayern-munich-vs-paris-saint-germain-0200-07-05-2026/601436056"
-                            },
-                            {"key": "User-Agent", "value": "Mozilla/5.0"}
-                          ]
-                        },
-                        {
-                          "id": "lnk-babe8db0b1",
-                          "name": "Link 3",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.taoxanh.biz/live/69fb84ed42283_162172/index.m3u8?expire=1778696045&sign=6046fb81634a39c1c948a0bffe3b5629",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv4.net/truc-tiep/fc-bayern-munich-vs-paris-saint-germain-0200-07-05-2026/601436056"
-                            },
-                            {"key": "User-Agent", "value": "Mozilla/5.0"}
-                          ]
-                        },
-                        {
-                          "id": "lnk-962e97b0a9",
-                          "name": "Link 4",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://cdn-hls.taoxanh.biz/live/69fb8244203f5_44731/index.m3u8?expire=1778695364&sign=0e3f8e487d66d812df6b0a8573f8fd65",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv4.net/truc-tiep/fc-bayern-munich-vs-paris-saint-germain-0200-07-05-2026/601436056"
-                            },
-                            {"key": "User-Agent", "value": "Mozilla/5.0"}
-                          ]
-                        },
-                        {
-                          "id": "lnk-532860db33",
-                          "name": "Link 5",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.alilicloud.com/live/e04742a487171151887442f27a890e99/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv4.net/truc-tiep/fc-bayern-munich-vs-paris-saint-germain-0200-07-05-2026/601436056"
-                            },
-                            {"key": "User-Agent", "value": "Mozilla/5.0"}
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Champions League",
-            "team_a": "FC Bayern Munich",
-            "team_b": "Paris Saint Germain",
-            "logo_a": "https://cdn-live.taoxanh.biz/live-dev/football/team/logo/ef19a84a6745fe57aa786873d2b18e8a.png",
-            "logo_b": "https://cdn-live.taoxanh.biz/live-dev/football/team/logo/3b720f181ce9993f9422d276acf7b292.png",
-            "thumb": "https://pub-26bab83910ab4b5781549d12d2f0ef6f.r2.dev/thumbs/kaytee-da0e311b9161.webp?v=1778093076",
-            "thumb_key": "thumbs/kaytee-da0e311b9161.webp"
           }
         },
         {
